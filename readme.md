@@ -1,3 +1,3 @@
 # JournalApp
 
-## link : https://journal-app-liard.vercel.app/auth/login
+## link :https://journal-app-topaz.vercel.app/auth/login
