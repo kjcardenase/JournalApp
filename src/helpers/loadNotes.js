@@ -1,4 +1,3 @@
-import { async } from '@firebase/util';
 import { collection, getDocs } from 'firebase/firestore/lite';
 import { FirebaseDB } from '../firebase/config';
 
@@ -13,6 +12,5 @@ export const loadNotes = async (uid = '') => {
         notes.push({ id: doc.id, ...doc.data() });
     });
 
-    console.log(notes);
     return notes;
 };
